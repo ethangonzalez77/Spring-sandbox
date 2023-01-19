@@ -13,9 +13,6 @@ public class SpringSandboxApplication {
         SpringApplication.run(SpringSandboxApplication.class, args);
     }
 
-    @GetMapping
-    public String hello() {
-        return "Hello World";
-    }
+
 
 }
