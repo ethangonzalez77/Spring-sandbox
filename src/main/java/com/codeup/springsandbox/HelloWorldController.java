@@ -23,8 +23,8 @@ public class HelloWorldController {
 
     //🧇4. where the html form is going to send the data
     @GetMapping("/processForm")
-    public String processForm(Model model, @RequestParam String poop) {
-        model.addAttribute("pew", poop);
+    public String processForm(Model model, @RequestParam String uni) {
+        model.addAttribute("pew", uni);
         return "helloworld";
     }
 
